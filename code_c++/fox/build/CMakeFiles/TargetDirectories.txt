@@ -1,0 +1,3 @@
+/home/lipu/fox/build/CMakeFiles/LazyFox.dir
+/home/lipu/fox/build/CMakeFiles/edit_cache.dir
+/home/lipu/fox/build/CMakeFiles/rebuild_cache.dir

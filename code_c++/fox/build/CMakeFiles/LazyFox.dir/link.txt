@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++2a -fopenmp -O3 CMakeFiles/LazyFox.dir/main.cpp.o -o LazyFox
