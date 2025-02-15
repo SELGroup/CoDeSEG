@@ -165,8 +165,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/lipu/Code_com/CoDeSEG/build",
-		"source" : "/home/lipu/Code_com/CoDeSEG"
+		"build" : "/home/lipu/Code_com/code/build",
+		"source" : "/home/lipu/Code_com/code"
 	},
 	"version" : 
 	{

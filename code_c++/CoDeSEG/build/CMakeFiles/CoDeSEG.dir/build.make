@@ -53,10 +53,10 @@ RM = /home/lipu/anaconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lipu/Code_com/CoDeSEG
+CMAKE_SOURCE_DIR = /home/lipu/Code_com/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lipu/Code_com/CoDeSEG/build
+CMAKE_BINARY_DIR = /home/lipu/Code_com/code/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CoDeSEG.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/CoDeSEG.dir/progress.make
 include CMakeFiles/CoDeSEG.dir/flags.make
 
 CMakeFiles/CoDeSEG.dir/main.cpp.o: CMakeFiles/CoDeSEG.dir/flags.make
-CMakeFiles/CoDeSEG.dir/main.cpp.o: /home/lipu/Code_com/CoDeSEG/main.cpp
+CMakeFiles/CoDeSEG.dir/main.cpp.o: /home/lipu/Code_com/code/main.cpp
 CMakeFiles/CoDeSEG.dir/main.cpp.o: CMakeFiles/CoDeSEG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lipu/Code_com/CoDeSEG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CoDeSEG.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoDeSEG.dir/main.cpp.o -MF CMakeFiles/CoDeSEG.dir/main.cpp.o.d -o CMakeFiles/CoDeSEG.dir/main.cpp.o -c /home/lipu/Code_com/CoDeSEG/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lipu/Code_com/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CoDeSEG.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoDeSEG.dir/main.cpp.o -MF CMakeFiles/CoDeSEG.dir/main.cpp.o.d -o CMakeFiles/CoDeSEG.dir/main.cpp.o -c /home/lipu/Code_com/code/main.cpp
 
 CMakeFiles/CoDeSEG.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoDeSEG.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lipu/Code_com/CoDeSEG/main.cpp > CMakeFiles/CoDeSEG.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lipu/Code_com/code/main.cpp > CMakeFiles/CoDeSEG.dir/main.cpp.i
 
 CMakeFiles/CoDeSEG.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoDeSEG.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lipu/Code_com/CoDeSEG/main.cpp -o CMakeFiles/CoDeSEG.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lipu/Code_com/code/main.cpp -o CMakeFiles/CoDeSEG.dir/main.cpp.s
 
 CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o: CMakeFiles/CoDeSEG.dir/flags.make
-CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o: /home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.cpp
+CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o: /home/lipu/Code_com/code/lib/CoDeSEG.cpp
 CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o: CMakeFiles/CoDeSEG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lipu/Code_com/CoDeSEG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o -MF CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o.d -o CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o -c /home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lipu/Code_com/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o -MF CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o.d -o CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o -c /home/lipu/Code_com/code/lib/CoDeSEG.cpp
 
 CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.cpp > CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lipu/Code_com/code/lib/CoDeSEG.cpp > CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.i
 
 CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.cpp -o CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lipu/Code_com/code/lib/CoDeSEG.cpp -o CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.s
 
 CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o: CMakeFiles/CoDeSEG.dir/flags.make
-CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o: /home/lipu/Code_com/CoDeSEG/lib/DynamicArray.cpp
+CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o: /home/lipu/Code_com/code/lib/DynamicArray.cpp
 CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o: CMakeFiles/CoDeSEG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lipu/Code_com/CoDeSEG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o -MF CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o.d -o CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o -c /home/lipu/Code_com/CoDeSEG/lib/DynamicArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lipu/Code_com/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o -MF CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o.d -o CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o -c /home/lipu/Code_com/code/lib/DynamicArray.cpp
 
 CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lipu/Code_com/CoDeSEG/lib/DynamicArray.cpp > CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lipu/Code_com/code/lib/DynamicArray.cpp > CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.i
 
 CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lipu/Code_com/CoDeSEG/lib/DynamicArray.cpp -o CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lipu/Code_com/code/lib/DynamicArray.cpp -o CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.s
 
 CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o: CMakeFiles/CoDeSEG.dir/flags.make
-CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o: /home/lipu/Code_com/CoDeSEG/lib/Utility.cpp
+CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o: /home/lipu/Code_com/code/lib/Utility.cpp
 CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o: CMakeFiles/CoDeSEG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lipu/Code_com/CoDeSEG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o -MF CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o.d -o CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o -c /home/lipu/Code_com/CoDeSEG/lib/Utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lipu/Code_com/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o -MF CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o.d -o CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o -c /home/lipu/Code_com/code/lib/Utility.cpp
 
 CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lipu/Code_com/CoDeSEG/lib/Utility.cpp > CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lipu/Code_com/code/lib/Utility.cpp > CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.i
 
 CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lipu/Code_com/CoDeSEG/lib/Utility.cpp -o CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lipu/Code_com/code/lib/Utility.cpp -o CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.s
 
 # Object files for target CoDeSEG
 CoDeSEG_OBJECTS = \
@@ -141,7 +141,7 @@ CoDeSEG: CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o
 CoDeSEG: CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o
 CoDeSEG: CMakeFiles/CoDeSEG.dir/build.make
 CoDeSEG: CMakeFiles/CoDeSEG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lipu/Code_com/CoDeSEG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CoDeSEG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lipu/Code_com/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CoDeSEG"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CoDeSEG.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/CoDeSEG.dir/clean:
 .PHONY : CMakeFiles/CoDeSEG.dir/clean
 
 CMakeFiles/CoDeSEG.dir/depend:
-	cd /home/lipu/Code_com/CoDeSEG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lipu/Code_com/CoDeSEG /home/lipu/Code_com/CoDeSEG /home/lipu/Code_com/CoDeSEG/build /home/lipu/Code_com/CoDeSEG/build /home/lipu/Code_com/CoDeSEG/build/CMakeFiles/CoDeSEG.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/lipu/Code_com/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lipu/Code_com/code /home/lipu/Code_com/code /home/lipu/Code_com/code/build /home/lipu/Code_com/code/build /home/lipu/Code_com/code/build/CMakeFiles/CoDeSEG.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CoDeSEG.dir/depend
 

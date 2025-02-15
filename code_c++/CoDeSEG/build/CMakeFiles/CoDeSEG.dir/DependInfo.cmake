@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.cpp" "CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o" "gcc" "CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o.d"
-  "/home/lipu/Code_com/CoDeSEG/lib/DynamicArray.cpp" "CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o" "gcc" "CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o.d"
-  "/home/lipu/Code_com/CoDeSEG/lib/Utility.cpp" "CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o" "gcc" "CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o.d"
-  "/home/lipu/Code_com/CoDeSEG/main.cpp" "CMakeFiles/CoDeSEG.dir/main.cpp.o" "gcc" "CMakeFiles/CoDeSEG.dir/main.cpp.o.d"
+  "/home/lipu/Code_com/code/lib/CoDeSEG.cpp" "CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o" "gcc" "CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o.d"
+  "/home/lipu/Code_com/code/lib/DynamicArray.cpp" "CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o" "gcc" "CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o.d"
+  "/home/lipu/Code_com/code/lib/Utility.cpp" "CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o" "gcc" "CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o.d"
+  "/home/lipu/Code_com/code/main.cpp" "CMakeFiles/CoDeSEG.dir/main.cpp.o" "gcc" "CMakeFiles/CoDeSEG.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

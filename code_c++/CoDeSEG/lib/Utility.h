@@ -1,18 +1,11 @@
+//
+// Created by Yantuan Xian on 2024/6/28.
+//
 
 #ifndef UTILITY_H
 #define UTILITY_H
 #include <fstream>
 #include "CoDeSEG.h"
-using namespace std::chrono;
-
-inline steady_clock::time_point timing_start() {
-    return std::chrono::steady_clock::now();
-}
-
-inline std::decay_t<long long &&> timing_stop(const steady_clock::time_point &from) {
-    return (std::chrono::steady_clock::now() - from) / 1ms;
-}
-
 
 /**
  * Load graph edges form text file, each edge per line with format, 'src_node tgt_node weight'

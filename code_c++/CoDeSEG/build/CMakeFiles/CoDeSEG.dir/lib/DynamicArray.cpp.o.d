@@ -1,7 +1,6 @@
 CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o: \
- /home/lipu/Code_com/CoDeSEG/lib/DynamicArray.cpp \
- /usr/include/stdc-predef.h \
- /home/lipu/Code_com/CoDeSEG/lib/DynamicArray.h /usr/include/c++/9/vector \
+ /home/lipu/Code_com/code/lib/DynamicArray.cpp /usr/include/stdc-predef.h \
+ /home/lipu/Code_com/code/lib/DynamicArray.h /usr/include/c++/9/vector \
  /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \

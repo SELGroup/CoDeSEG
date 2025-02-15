@@ -1,4 +1,4 @@
-# Install script for directory: /home/lipu/Code_com/CoDeSEG
+# Install script for directory: /home/lipu/Code_com/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lipu/Code_com/CoDeSEG/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lipu/Code_com/code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

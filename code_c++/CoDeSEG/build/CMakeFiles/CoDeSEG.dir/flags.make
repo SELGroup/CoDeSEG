@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lipu/Code_com/CoDeSEG/lib
+CXX_INCLUDES = -I/home/lipu/Code_com/code/lib
 
 CXX_FLAGS =  -O3 -g -std=gnu++17
 

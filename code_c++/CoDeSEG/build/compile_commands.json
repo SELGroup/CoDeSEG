@@ -1,26 +1,26 @@
 [
 {
-  "directory": "/home/lipu/Code_com/CoDeSEG/build",
-  "command": "/usr/bin/c++  -I/home/lipu/Code_com/CoDeSEG/lib  -O3 -g -std=gnu++17 -o CMakeFiles/CoDeSEG.dir/main.cpp.o -c /home/lipu/Code_com/CoDeSEG/main.cpp",
-  "file": "/home/lipu/Code_com/CoDeSEG/main.cpp",
+  "directory": "/home/lipu/Code_com/code/build",
+  "command": "/usr/bin/c++  -I/home/lipu/Code_com/code/lib  -O3 -g -std=gnu++17 -o CMakeFiles/CoDeSEG.dir/main.cpp.o -c /home/lipu/Code_com/code/main.cpp",
+  "file": "/home/lipu/Code_com/code/main.cpp",
   "output": "CMakeFiles/CoDeSEG.dir/main.cpp.o"
 },
 {
-  "directory": "/home/lipu/Code_com/CoDeSEG/build",
-  "command": "/usr/bin/c++  -I/home/lipu/Code_com/CoDeSEG/lib  -O3 -g -std=gnu++17 -o CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o -c /home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.cpp",
-  "file": "/home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.cpp",
+  "directory": "/home/lipu/Code_com/code/build",
+  "command": "/usr/bin/c++  -I/home/lipu/Code_com/code/lib  -O3 -g -std=gnu++17 -o CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o -c /home/lipu/Code_com/code/lib/CoDeSEG.cpp",
+  "file": "/home/lipu/Code_com/code/lib/CoDeSEG.cpp",
   "output": "CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o"
 },
 {
-  "directory": "/home/lipu/Code_com/CoDeSEG/build",
-  "command": "/usr/bin/c++  -I/home/lipu/Code_com/CoDeSEG/lib  -O3 -g -std=gnu++17 -o CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o -c /home/lipu/Code_com/CoDeSEG/lib/DynamicArray.cpp",
-  "file": "/home/lipu/Code_com/CoDeSEG/lib/DynamicArray.cpp",
+  "directory": "/home/lipu/Code_com/code/build",
+  "command": "/usr/bin/c++  -I/home/lipu/Code_com/code/lib  -O3 -g -std=gnu++17 -o CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o -c /home/lipu/Code_com/code/lib/DynamicArray.cpp",
+  "file": "/home/lipu/Code_com/code/lib/DynamicArray.cpp",
   "output": "CMakeFiles/CoDeSEG.dir/lib/DynamicArray.cpp.o"
 },
 {
-  "directory": "/home/lipu/Code_com/CoDeSEG/build",
-  "command": "/usr/bin/c++  -I/home/lipu/Code_com/CoDeSEG/lib  -O3 -g -std=gnu++17 -o CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o -c /home/lipu/Code_com/CoDeSEG/lib/Utility.cpp",
-  "file": "/home/lipu/Code_com/CoDeSEG/lib/Utility.cpp",
+  "directory": "/home/lipu/Code_com/code/build",
+  "command": "/usr/bin/c++  -I/home/lipu/Code_com/code/lib  -O3 -g -std=gnu++17 -o CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o -c /home/lipu/Code_com/code/lib/Utility.cpp",
+  "file": "/home/lipu/Code_com/code/lib/Utility.cpp",
   "output": "CMakeFiles/CoDeSEG.dir/lib/Utility.cpp.o"
 }
 ]

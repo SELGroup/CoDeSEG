@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/lipu/Code_com/CoDeSEG/build"
+			"value" : "/home/lipu/Code_com/code/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/lipu/Code_com/CoDeSEG/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/lipu/Code_com/code/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -639,7 +639,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/lipu/Code_com/CoDeSEG"
+			"value" : "/home/lipu/Code_com/code"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1191,7 +1191,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/lipu/Code_com/CoDeSEG/build"
+			"value" : "/home/lipu/Code_com/code/build"
 		},
 		{
 			"name" : "CoDeSEG_IS_TOP_LEVEL",
@@ -1215,7 +1215,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/lipu/Code_com/CoDeSEG"
+			"value" : "/home/lipu/Code_com/code"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",

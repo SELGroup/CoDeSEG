@@ -1,6 +1,6 @@
 CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o: \
- /home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.cpp /usr/include/stdc-predef.h \
- /home/lipu/Code_com/CoDeSEG/lib/CoDeSEG.h /usr/include/c++/9/future \
+ /home/lipu/Code_com/code/lib/CoDeSEG.cpp /usr/include/stdc-predef.h \
+ /home/lipu/Code_com/code/lib/CoDeSEG.h /usr/include/c++/9/future \
  /usr/include/c++/9/mutex /usr/include/c++/9/tuple \
  /usr/include/c++/9/utility \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
@@ -168,7 +168,7 @@ CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o: \
  /usr/include/c++/9/bits/hashtable.h \
  /usr/include/c++/9/bits/hashtable_policy.h \
  /usr/include/c++/9/bits/unordered_map.h \
- /home/lipu/Code_com/CoDeSEG/lib/DynamicArray.h /usr/include/c++/9/cmath \
+ /home/lipu/Code_com/code/lib/DynamicArray.h /usr/include/c++/9/cmath \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -206,7 +206,7 @@ CMakeFiles/CoDeSEG.dir/lib/CoDeSEG.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /home/lipu/Code_com/CoDeSEG/lib/ThreadPool.h /usr/include/c++/9/queue \
+ /home/lipu/Code_com/code/lib/ThreadPool.h /usr/include/c++/9/queue \
  /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_deque.h \
  /usr/include/c++/9/bits/deque.tcc /usr/include/c++/9/bits/stl_heap.h \
  /usr/include/c++/9/bits/stl_queue.h /usr/include/c++/9/functional \

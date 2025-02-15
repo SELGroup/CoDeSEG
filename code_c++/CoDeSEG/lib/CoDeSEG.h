@@ -1,4 +1,3 @@
-
 #ifndef CODESEG_H
 #define CODESEG_H
 
@@ -31,6 +30,7 @@ typedef DynamicArray<std::set<unsigned long> > NodeCmtyOvlp;
 typedef std::vector<std::set<std::string> > CmtySet;
 typedef std::future<std::tuple<float, unsigned long, unsigned long> > TaskReturn;
 
+
 class CoDeSEG {
     /**
      * Private members
@@ -38,10 +38,11 @@ class CoDeSEG {
     NodeArray nodes; // Array of node names
     NodeIdxMap node_idx; // Map of node name to node index
     AdjArray graph_adj; // Adjacency matrix
+    AdjArray graph_adj_out; // Adjacency matrix of out-degree in directed graph
 
     FloatValue graph_vol = 0.; // Graph volume, also known as the sum of edges weights
-    FloatValue graph_se_max = 0.;
-
+    FloatValue se_1d = 0.; // 1D SE of graph 
+    FloatValue avg_se_1d = 0.; // Avg. 1D SE of each node 
     FloatArray cmty_vol; // Community volumes
     FloatArray cmty_cut; // Sum of cut edge weights of each node i to other community
     FloatArray node_deg; // Degree (sum of edges weights) of each node i
@@ -53,7 +54,6 @@ class CoDeSEG {
     NodeIdxArray node_cmty; // Array of node community index
     NodeCmtyOvlp node_cmty_ovlp; // Array of node community index
 
-    std::vector<std::unique_ptr<std::mutex> > stats_mutex; // synchronization
     std::mutex stat_mutex; // synchronization
 
     CmtyMap cmtis; // Set of communities
@@ -69,20 +69,33 @@ public:
      * @param edges Edge Arrary
      * @return The reference of this instance
      */
-    CoDeSEG &add_edges(EdgeArray &edges);
+    CoDeSEG &add_edges(EdgeArray &edges, bool direct = false);
+
+    /**
+     * Add an edge to this CoDeSEG graph, and encode nodes to indice
+     * @param src The source node of edge
+     * @param tgt The target node of edge
+     * @param weight The edge weight, default value is 1.0
+     * @return The reference of this instance
+     */
+    CoDeSEG &add_edge(const Node &src, const Node &tgt, float weight = 1.0, bool direct = false);
 
     /**
      * Run the community detection algorithm
      * @param max_iter The max limit iteration 
      * @param overlapping If true, detect overlapping communities.
      * @param verbose Produce verbose output.
-     * @param se_threshold
      * @return The reference of this instance
      */
-    CoDeSEG &detect_cmty(unsigned int max_iter, bool overlapping, bool verbose = false, float se_threshold = 0.25);
+    CoDeSEG &detect_cmty(unsigned int max_iter, bool overlapping, float tau, float alpha, bool verbose = false);
 
-    CoDeSEG &detect_cmty(unsigned int num_worker, unsigned int max_iter, bool overlapping,
-                         bool verbose, float se_threshold = 0.25);
+    CoDeSEG &detect_cmty(unsigned int num_worker, unsigned int max_iter,
+                         bool overlapping, float tau, float alpha, bool verbose);
+
+    CoDeSEG &detect_cmty_direct(unsigned int max_iter, bool overlapping, float tau, float alpha, bool verbose = false);
+
+    CoDeSEG &detect_cmty_direct(unsigned int num_worker, unsigned int max_iter,
+                         bool overlapping, float tau, float alpha, bool verbose);
 
     /**
      * The community labels for each node
@@ -119,6 +132,9 @@ protected:
     void _transfer(NodeIdx i,
                    NodeIdx src_cmty, float deg_i_src_cmty,
                    NodeIdx tgt_cmty, float deg_i_tgt_cmty);
+    void _direct_transfer(NodeIdx i,
+                   NodeIdx src_cmty, float deg_i_src_cmty_in, float deg_i_src_cmty_out,
+                   NodeIdx tgt_cmty, float deg_i_tgt_cmty_in, float deg_i_tgt_cmty_out);
 
     /**
      * Compute the structural entropy delta when node i leave its community
@@ -129,6 +145,7 @@ protected:
      * @return The structural entropy delta
      */
     float _delta_leave(NodeIdx i, NodeIdx cmty_idx, FloatValue deg_i_cmty, bool i_in_cmty = true);
+    float _direct_delta_leave(NodeIdx i, NodeIdx cmty_idx, FloatValue deg_i_cmty,  FloatValue deg_i_cmty_out, bool i_in_cmty = true);
 
     /**
      * Compute the strategy for node i
@@ -145,6 +162,7 @@ protected:
      * >
      */
     std::tuple<float, float, float, unsigned long, float, unsigned long, float> _node_strategy(NodeIdx i);
+    std::tuple<float, float, float, unsigned long, float, float, unsigned long, float, float> _direct_node_strategy(const NodeIdx i);
 
     /**
      * try to overlap node to neighbor communities
@@ -152,7 +170,18 @@ protected:
      * @param multi_thread run in multi thread env
      * @return
      */
-    std::tuple<float, unsigned long> _ovlp_node(NodeIdx i, bool multi_thread = false);
+    std::tuple<float, unsigned long> _ovlp_node(NodeIdx i, float alpha, bool multi_thread=false);
+    std::tuple<float, unsigned long> _direct_ovlp_node(NodeIdx i, float alpha, bool multi_thread=false);
+
+    /**
+     * Get the index of the node. If the name is not in the graph create
+     * a new index for it.
+     * @param node The node name
+     * @return The node index
+     */
+    NodeIdx _add_or_get_node(const Node &node, bool direct = false);
+
+   
 };
 
 
